@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-container {
+  width: 50%;
+  padding: 20px;
+}
+
+.output-container {
+  width: 50%;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.buttons-container button {
+  margin-left: 10px;
+}
+
+/* Styling for ConversionResult component */
+.conversion-result {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.conversion-result h2 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+.top-container {
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
